@@ -1,0 +1,44 @@
+@media screen and (max-width:1000px){
+    .body{
+        overflow: hidden;
+    }
+    .trees{
+        width: 2000px;
+    }
+    .sky{
+        width: 2000px;
+    }
+    .track{
+        overflow: hidden;
+        position: absolute;
+        width: 4000px;
+    }
+}
+    @media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+        .track{
+            width: 7000px;
+        }
+        .trees{
+            width: 3090px;
+        }
+        .sky{
+            width: 3090px;
+        }
+
+    }
+    @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2)  and (orientation: portrait)  {
+        .trees{
+            width: 4090px;
+        }
+        .track{
+            width: 10000px;
+        
+        }
+        .sky{
+            width: 6990px;
+            
+
+
+        }
+    }
+
