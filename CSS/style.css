@@ -30,7 +30,7 @@ body{
     position: absolute;
     top: 70vh;
     background-repeat: repeat-x;
-    animation: CarMove linear 6S infinite;
+    animation: CarMove linear 9S infinite;
 }
 .car{
     height: 100px;
